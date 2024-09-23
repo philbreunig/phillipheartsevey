@@ -10,6 +10,7 @@ git clone https://github.com/philbreunig/phillipheartsevey.git
 cd phillipheartsevey
 ```
 
+# Impressive Site Attributes
 ## Typewriter Effect
 Casscading text that displays upon loading site.
 ```javascript
@@ -32,14 +33,13 @@ setTimeout(() => { updateText(element1, bigText) }, 100);
 ```
 ```html
 <div class="messageBox">
-            <h2 class="message" id="typewriter1"></h2>
-        </div>
-        <div class="littleMessageBox">
-            <p class="littleMessage" id="typewriter2">In case we lose track of it over the years, here is how long its been since you've given me the chance to love you:</p>
-        </div>
+    <h2 class="message" id="typewriter1"></h2>
+</div>
+<div class="littleMessageBox">
+    <p class="littleMessage" id="typewriter2">In case we lose track of it over the years, here is how long its been since you've given me the chance to love you:</p>
+</div>
 ```
 
-# Impressive Site Attributes
 ## Love Clock
 Star of the Site; clock that tracks (live) time between start of relationship and current-day.
 ```javascript
